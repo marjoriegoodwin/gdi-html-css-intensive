@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" id="no-background">
+<head>
+    <meta charset="utf-8" />
+    <title>Stripe: Page not found</title>
+
+
+    <script type="text/javascript">
+        var _sf_startpt=(new Date()).getTime()
+        var APIValues = {};
+
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="/css/style.css" media="screen" />
+
+    <script type="text/javascript" src="/javascripts/jquery.js"></script>
+    <script type="text/javascript" src="/javascripts/shared.js"></script>
+</head>
+<body>
+    <div id="header">
+        <h1><a href="/">Stripe</a></h1>
+
+                <div class="navigation">
+            
+                <div class="signin"><a id='signin' href="https://manage.stripe.com/login"><span>Sign In</span></a></div>
+            
+
+            <ul class="global">
+                <li><a href="https://manage.stripe.com/">Dashboard</a></li>
+                <li><a href="/docs">Documentation</a></li>
+                <li><a href="https://answers.stripe.com/">Help &amp; Support</a></li>
+            </ul>
+
+        </div>
+
+    </div> <!-- END HEADER -->
+
+    <div class="box-separator"></div>
+
+    <div id="error-block" class="404">
+        <h1>Page not found!</h1>
+        <h2>Sorry, but the page you were looking for could not be found.</h2>
+        <p>
+            You can <a href="/">return to our front page</a>, or send us an email at <a href="mailto:support@stripe.com">support@stripe.com</a> if you can't find what you're looking for.
+        </p>
+    </div>
+
+
+    <div class="box-separator"></div>
+
+
+    <div id="footer">
+    <ul>
+        <li><a href="https://stripe.com/about">About</a></li>
+        <li><a href="https://stripe.com/gallery"><span>Gallery</span></a></li>
+        <li><a href="https://stripe.com/blog"><span>Blog</span></a></li>
+        <li><a href="https://stripe.com/jobs"><span>Jobs</span></a></li>
+    </ul>
+    <ul class="lesser">
+        <li><a href="https://stripe.com/terms">Legal</a></li>
+        <li><a href="http://twitter.com/stripe">@stripe</a></li>
+    </ul>
+    <p><a href="https://stripe.com/">&copy; Stripe</a></p>
+</div>
+<script type="text/javascript" src="/javascripts/jquery.js"></script>
+<script type="text/javascript" src="/javascripts/shared.js"></script>
+  <script type="text/javascript">
+    var clicky_site_ids = clicky_site_ids || [];
+    clicky_site_ids.push(66581572);
+    (function() {
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = '//static.getclicky.com/js';
+      ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+    })();
+  </script>
+  <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/66581572ns.gif" /></p></noscript>
+
+
+
+<!-- Ganalytics -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-12675062-1']);
+  _gaq.push(['_setDomainName', '.stripe.com']);
+  _gaq.push(['_trackPageview', document.location.pathname + document.location.search + document.location.hash]);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+<!-- Mixpanel -->
+<script type="text/javascript">
+  (function(d,c){var a,b,g,e;a=d.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===d.location.protocol?"https:":"http:")+'//api.mixpanel.com/site_media/js/api/mixpanel.2.js';b=d.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b);c._i=[];c.init=function(a,d,f){var b=c;"undefined"!==typeof f?b=c[f]=[]:f="mixpanel";g="disable track track_links track_forms register register_once unregister identify name_tag set_config".split(" ");for(e=0;e<g.length;e++)(function(a){b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,0)))}})(g[e]);c._i.push([a,d,f])};window.mixpanel=c})(document,[]);
+  mixpanel.init("4b8fbd59726a9537df293aded65dac01");
+  mixpanel.set_config({
+    track_pageview: false
+  });
+</script>
+
+
+
+</body>
+</html>

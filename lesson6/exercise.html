@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- saved from url=(0082)http://www.teaching-materials.org/htmlcss-1day/lesson6/exercise_media_descrip.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>CSS: Media Queries Exercise</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet">
+  <style type="text/css">@media print { #feedlyMiniIcon { display: none; } }</style></head>
+  <body>
+    <div class="container">
+        <h1>CSS: Media Queries Exercise</h1>
+        <p>The goal of this exercise is to use CSS media queries to make a webpage appear
+        different for printing and for different window sizes.
+        </p>
+        <ul>
+            <li>Start with <a href="http://www.teaching-materials.org/htmlcss-1day/lesson6/exercise_media_before.html">this webpage</a>,
+            which already has HTML and CSS for a header, navigation, content, sidebar, and footer. This is what it looks like:
+            <p>
+            <img src="./exercise_files/f8_u1e22y4bw.png" style="border:1px solid black;">
+            </p>
+            <br><br>
+            </li><li>Add a CSS media query and appropriate styles so that the webpage looks like the screenshot below when printed.
+            Specifically:
+            <ul>
+                <li>The header, navigation, and footer should be hidden.
+                </li><li>The sidebar should display under the main content.
+            </li></ul>
+            <p>
+            <img src="./exercise_files/u4i82nrsa6at.png">
+            </p>
+            <br><br>
+            </li><li>Add a CSS media query and appropriate styles so that the webpage looks like the screenshots below 
+            when resized to smaller widths.
+            Specifically: 
+                <ul>
+                    <li>The sidebar should be hidden.
+                    </li><li>The body should have no padding.
+                    </li><li>The images shouldn't exceed the width of the window.
+                    </li><li>The navigation items should each be on their own line.
+                    </li><li>The header should be fixed, so that it stays at the top after scrolling.
+                </li></ul>
+            <p>
+            <img src="./exercise_files/cpe39ou_1igz.png">
+            </p>
+            <br><br>
+        </li></ul>
+         
+  <button class="btn" onclick="showSolution();">Show Solution</button>
+   
+   <div id="solution" style="display:none; margin-top: 20px;">
+   <a href="http://www.teaching-materials.org/htmlcss-1day/lesson6/exercise_media_solution.html" target="_blank">View Solution in New Window</a>
+   <p></p>
+   
+    <script>
+function showSolution() {
+  if (confirm('You surrrrre?')) {
+    document.getElementById('solution').style.display = 'block';
+    window.scrollTo(0, document.body.scrollHeight);
+  }
+}
+  	</script>
+    </div>
+  
+
+</div><img id="feedlyMiniIcon" title="feedly mini" style="position: fixed; bottom: 14px; right: 14px; z-index: 99; cursor: pointer; border: 0px; -webkit-transition: opacity 0.3s ease; visibility: visible; width: 24px; height: 24px; max-height: 24px; max-width: 24px; overflow: hidden; display: block; padding: 0px; opacity: 0.35; " width="24" height="24" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAYlJREFUeNrMVD1rwlAUPfkwBBxFKQQlDhmjqzj4F9w7FfwThZaW9n8UnDrrn1BEXNTBRQQhEE1ERRR0Sd990A7VaKJJ6YHzEu4N99z3zrsRGo2GAuCF8YFRQzSwGOuM7zJb3hgfES2o0SdGSWRLDfGhRgLpGAXS4q0VCoUCBEHwzd8skM/nUSqVoCjKybz8O1CtVn2LeZ4H27YxnU6xXC6x3+95PJPJoFKpoN1uY7vdnhfww3w+x3A4xGaz4d3quo5sNvuTTyaTXKTb7cJ13csCzWbzKKaqKj/zXC4HSZKO8iRcLpcxGAwwmUzC7UDTNBSLRSQSiVAeyUGNpM4v4XA4oNfr8eMMLJBKpWCaJn9fLBawLAur1Qq73Y6b/H0pyNyrTDYMA7PZDKPRCOv1+uQ3ZCqZe9UcOI6DTqfjW5zMbLVa3Bu6RaE9GI/HZ/P9fp8/qfipYROj+ukEnuQgEx0GImKGHGSC//UO/kTAibG+QwIfMQrUyeRXusaM94x3ERW2GT8Zn78EGACRmoKUJhB1TQAAAABJRU5ErkJggg=="></body></html>
